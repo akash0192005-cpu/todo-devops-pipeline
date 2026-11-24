@@ -4,3 +4,4 @@ app_group: todoapi
 app_dir: /opt/todo-api
 app_port: 5000
 python_package: python3-venv
+python_pip_package: python3-pip
