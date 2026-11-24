@@ -1,0 +1,6 @@
+app_name: todo-api
+app_user: todoapi
+app_group: todoapi
+app_dir: /opt/todo-api
+app_port: 5000
+python_package: python3-venv
