@@ -3,6 +3,7 @@
     name:
       - python3
       - "{{ python_package }}"
+      - "{{ python_pip_package }}"
     state: present
 
 - name: Create application group
