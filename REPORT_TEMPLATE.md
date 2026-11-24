@@ -64,7 +64,7 @@ Jenkins job configuration:
 ### 2.5 CI Enhancement
 The chosen enhancement is GitHub Actions alongside Jenkins. The workflow runs pytest and builds a Docker image on pushes to `main` and feature branches and on pull requests targeting `main`.
 
-[Insert a screenshot/link to a completed successful Actions run. Record the run URL and result.]
+A successful GitHub Actions run was verified for commit `2978df018dc4a68fd326a5a98463f792f2a9fc85`: https://github.com/akash0192005-cpu/todo-devops-pipeline/actions/runs/45375735819. The run completed successfully; pytest and the Docker image build steps both passed. Insert your own screenshot of this run in the final report.
 
 ## 3. Component 2 — Ansible, Docker and Kubernetes
 
