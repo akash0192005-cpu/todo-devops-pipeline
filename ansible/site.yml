@@ -1,0 +1,5 @@
+- name: Configure Todo API host
+  hosts: todo_servers
+  become: true
+  roles:
+    - todo_api
