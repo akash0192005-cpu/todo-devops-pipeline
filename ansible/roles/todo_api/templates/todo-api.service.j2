@@ -1,0 +1,14 @@
+[Unit]
+Description=Todo REST API
+After=network.target
+
+[Service]
+User={{ app_user }}
+Group={{ app_group }}
+WorkingDirectory={{ app_dir }}
+Environment=PORT={{ app_port }}
+ExecStart={{ app_dir }}/venv/bin/python -m app
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
